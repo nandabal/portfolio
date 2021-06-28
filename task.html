@@ -6,43 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="task.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<body >
- <header class="" id="header">
-   <div  class="row">
-     <div class="col-md-6 col-9 p-3 pl-5">
-         <img  src="logo.png">
 
-     </div>
-     <div style="padding-right:100px;"  class="col-md-6 col-3 ">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-           
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+ <header class="container-fluid" id="header">
+     <nav class="navbar navbar-expand-lg navbar-light ">
+           <img class="navbar-brand" src="logo.png" alt="logo">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
               <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul style="line-height: 7;" class="navbar-nav  ml-auto ">
-                
-                <li class="nav-item">
-                  <a class="nav-link text-primary " href="#aboutMe"><strong>About me</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-primary" href="#education"><strong>Education</strong></a>
+           </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+             <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a  class="nav-link text-primary aboutme" href="#aboutMe"><strong>About Me</strong> </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-primary" href="#contactMe"><strong>Contact Me</strong></a>
+                     <a  class="nav-link text-primary education" href="#education"><strong>Education</strong></a>
                   </li>
-                  </ul>
-            </div>
-          </nav>
-     </div>
-   </div>
+                  <li class="nav-item">
+                     <a  class="nav-link text-primary contactme" href="#contactMe"><strong>Contact Me</strong></a>
+                   </li>
+              </ul>
+           </div>
+      </nav>
  </header>
 
- <section    class=" ">
-  
+ <section class="">
+
+
   <div class="row align-items-center">
     <div class="col-md-12 text-white">
       <img style="width: 100%;" class="img-fluid" src="banner.jpg" alt="">
@@ -54,128 +46,125 @@
     </div>
     
  </div>
+
+
    </section>
+
   <br><br>
   <section class="bg-light p-5" id="aboutMe">
     <h1 class="text-center ">ABOUT ME</h1>
-    <hr style="width:10%; background-color: black; margin:0.1em auto">
-    <hr style="width:17%; border:1px solid black; margin:0.1em auto">
-    <hr style="width:10%; background-color: black; margin:0.1em auto">
+    <hr class="line">
+    <hr class="line2">
+    <hr class="line">
     <div class="row">
     <div class=" col-md-6 p-5">
        <h4>WHO <strong>AM</strong> I ?</h4>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh quam, tristique eu enim sed, finibus malesuada purus. Proin dictum felis nec odio facilisis, nec lobortis eros pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh quam, tristique eu enim sed, finibus malesuada purus. Proin dictum felis nec odio facilisis, nec lobortis eros pellentesque. Donec sed congue sem.  </p>
-       
-       <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam orci ligula, aliquet et libero id, tincidunt faucibus massa. Donec ut eleifend eros. Duis auctor scelerisque laoreet.  </p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Non vel, sint nisi possimus sunt veritatis totam velit,esse pariatur in minima nostrum harum dolorum prefendis quasi dolor autem delenti inventore</p>
+      <p><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Non vel, sint nisi possimus sunt veritatis totam velit,esse pariatur in minima nostrum harum dolorum prefendis quasi dolor autem delenti inventore.
+      </p><br>
        <button type="button" class="btn btn-dark">DOWNLOAD MY CV</button>
-
-    </div>
+   </div>
     <div class=" col-md-6 p-5">
-        <h4>EXPERT<strong> IN</strong></h4>
-        <p>Morbi a nisl ante. Etiam laoreet ultricies purus non mattis. Nullam semper bibendum ligula, egestas consequat odio egestas in. </p>
-        
-        <div class="progress-one mt-3">
-          <h4 style="font-size: medium;" class="progress-tittle"><strong>GRAPHIC DESIGN</strong></h4>
-          <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        <h4>EXPERT<strong> IN</strong></h4><br>
+        <p>Poin dui orci pretium eget fringilla sit amet, luctus a nisl.Praesent tristique scelerisque sapien at aliquet. </p>
+               <div class="progress-one mt-3">
+          <h4  class="progress-tittle skill"><strong>GRAPHIC DESIGN</strong></h4>
+          <div  class="progress skillbar">
+            <div class="progress-bar bg-dark graphicdesign" role="progressbar"  aria-valuemax="100"></div>
           </div>
         </div>
         <div class="progress-one my-lg-3">
-          <h4 style="font-size: medium;" class="progress-tittle"><strong>CSS</strong></h4>
-          <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+          <h4  class="progress-tittle skill"><strong>CSS</strong></h4>
+          <div  class="progress skillbar">
+            <div class="progress-bar bg-dark css" role="progressbar"></div>
           </div>
         </div>
         <div class="progress-one my-lg-3">
-          <h4 style="font-size: medium;" class="progress-tittle"><strong>JAVASCRIPT</strong></h4>
-          <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          <h4 class="progress-tittle skill"><strong>JAVASCRIPT</strong></h4>
+          <div  class="progress skillbar">
+            <div class="progress-bar bg-dark javascript" role="progressbar" ></div>
           </div>
         </div>
         <div class="progress-one my-lg-3">
-          <h4 style="font-size: medium;"  class="progress-tittle"><strong>WORDPRESS</strong></h4>
-          <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 50%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+          <h4 class="progress-tittle skill"><strong>WORDPRESS</strong></h4>
+          <div class="progress skillbar">
+            <div class="progress-bar bg-dark wordpress" role="progressbar" ></div>
           </div>
         </div>
-        
-    </div>
+           </div>
     <div  class=" col-md-6 " id="education">
-     <div style="background-color: white;" class="p-5">
-      <h4>EDUCATION</h4><br>
+     <div class="p-5 education-section">
+      <h4>EDUCATION</h4>
         <div class="row">
-           <div class="col-md-4">
+           <div class="col-md-5 edu-rowFirst"><br>
               <p>2011-2013</p>
               <h6>NY <strong>UNIVERSITY</strong></h6>
            </div>
-           <div class="col-md-8">
+           <div class="col-md-7"><hr>
             <h5 >WEB <strong>DEVELOPMENT</strong></h5>
-            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sed tortor ex aliquam .</p>
+            <p>Poin dui orci pretium eget fringilla sit amet, luctus a nisl.Praesent tristique scelerisque sapien at aliquet. </p>
             <hr> 
            </div>
         </div>
-
-        <div class="row">
-          <div class="col-md-4">
-             
-            <p>2005-2007</p>
+       <div class="row">
+          <div  class="col-md-5 edu-rowSecond">
+                        <p>2005-2007</p>
             <h6>NY<strong> UNIVERSITY</strong></h6>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-7">
             <h5>GRAPHIC <strong>DESIGN</strong></h5>
-            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sed tortor ex aliquam .</p>
+            <p>Poin dui orci pretium eget fringilla sit amet, luctus a nisl.Praesent tristique scelerisque sapien at aliquet. </p>
             <hr> 
           </div>
        </div>
-
-       <div class="row">
-        <div class="col-md-4">
+      <div class="row">
+        <div  class="col-md-5 edu-rowSecond">
           <p>2007-2008</p>
           <h6>NY<strong> UNIVERSITY</strong></h6>
         </div>
-        <div class="col-md-8">
-
-          <h5>WEB<strong> DESIGN</strong></h5>
-          <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sed tortor ex aliquam .</p>
+        <div class="col-md-7">
+         <h5>WEB<strong> DESIGN</strong></h5>
+          <p>Poin dui orci pretium eget fringilla sit amet, luctus a nisl.Praesent tristique scelerisque sapien at aliquet. </p>
           <hr> 
         </div>
      </div>
-
-     </div>
+    </div>
     </div>
     <div class=" col-md-6  ">
-      <div style="background-color: white;" class="p-5">
-        <h4>EXPERIENCE</h4><br>
+      <div  class="p-5 education-section">
+        <h4>EXPERIENCE</h4>
         <div class="row">
-          <div class="col-md-5">
+          <div  class="col-md-5 edu-rowFirst"><br>
              <p>2013-2014</p>
              <h6><strong>EYELINE ANIMATION</strong></h6>
           </div>
           <div class="col-md-7">
+            <hr>
              <h5 >GRAPHIC<strong> DESIGNER</strong></h5>
-             <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sed tortor ex aliquam .</p>
+             <p>Poin dui orci pretium eget fringilla sit amet, luctus a nisl.Praesent tristique scelerisque sapien at aliquet. </p>
              <hr>    
           </div>
         </div>
         <div class="row">
-          <div class="col-md-5">
+          <div  class="col-md-5 exp-rowSecond">
              <p>2007-2010</p>
              <h6><strong>ENTER AD</strong></h6>
           </div>
           <div class="col-md-7">
               <h5>GRAPHIC <strong> DESIGNER</strong></h5>
-              <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sed tortor ex aliquam .</p>
+              <p>Poin dui orci pretium eget fringilla sit amet, luctus a nisl.Praesent tristique scelerisque sapien at aliquet. </p>
               <hr>     
           </div>
         </div>
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 exp-rowSecond">
                <p>2011-2013</p>
                <h6><strong>UNIHOST2U INC</strong></h6>
            </div>
           <div class="col-md-7">
                <h5>SENIOR<strong> DESIGNER</strong></h5>
-               <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sed tortor ex aliquam .</p>
+               <p>IPoin dui orci pretium eget fringilla sit amet, luctus a nisl.Praesent tristique scelerisque sapien at aliquet. </p>
                <hr>
          </div>
         </div>
@@ -184,66 +173,47 @@
 </div>
   </section>
   <section id="contactMe">
-    <div class="container">
-          <h1 class="text-center">Contact Me</h1>
-      <div class="row">
-     <div class="col-md-2">
-  </div>
-   <div class="col-md-8 p-4">
-  <form>
-   
-    <div class="form-group">
-      
-      <input style="border-color: #17a2b8;" type="text" class="form-control"  placeholder="Name">
-    </div><br>
-    <div class="form-row ">
-      
-      <div class="form-group col-md-6">
-        
-        <input style="border-color: #17a2b8;"  type="tel" class="form-control"  placeholder="Mobile No.">
-      </div>
-      <div class="form-group col-md-6">
-        
-        <input style="border-color: #17a2b8;"  type="email" class="form-control"  placeholder="Email">
-      </div>
+     <div class="container">
+      <h1 class="text-center">Contact Me</h1>
+         <div class="row">
+            <div class="col-md-2"></div>
+           <div class="col-md-8 p-4">
+                <form>
+                  <div class="form-group">
+                         <input type="text" class="form-control input-field"  placeholder="Name">
+                  </div><br>
+                 <div class="form-row ">
+                 <div class="form-group col-md-6">
+                         <input   type="tel" class="form-control input-field"  placeholder="Mobile No.">
+                    </div>
+                 <div class="form-group col-md-6">
+                        <input  type="email" class="form-control input-field"  placeholder="Email">
+                  </div>
+                  </div><br>
+                   <div class="form-group">
+                      <textarea  class="form-control rounded-0 input-field textArea" placeholder="Message" rows="10"></textarea>
+                  </div><br>
+                    <button type="button" class="btn btn-info">Submit</button>
+               </form>
+           </div>
+        <div class="col-md-2"></div>
     </div>
-    <br>
-    <div class="form-group">
-      <textarea style="height: 150px; border-color: #17a2b8;" class="form-control rounded-0" placeholder="Message" rows="10"></textarea>
-    </div>
-   <br>
-    <button type="button" class="btn btn-info">Submit</button>
-  </form>
-  </div>
-  <div class="col-md-2">
-
-  </div>
-</div>
-</div>
-
+   </div>
 </section>
-
 <footer  class="bg-dark p-5">
-    <div class="row">
-       <div class="col-md-6 text-white">
-         <div style="padding-left: 100px;">
-           <p>&copy; Copyright www.luminescent.digital.All Rights Reserved</p>
-       </div>
-       </div>
-       <div class="col-md-6 ">
-         <div style="padding-left: 450px;">
-         <a href="#header"><button  style="border-color: gray;" class="bg-secondary"><svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+   <div class="row">
+       <div class="col-md-6  ">
+              <p class="footer"> <a class="footer"  href="https://luminescent.digital/">&copy; Copyright www.luminescent.digital.</a>All Rights Reserved</p>
+        </div>
+       <div  class="col-md-6  div-button ">
+             <a  href="#header"><button  class="bg-secondary button"><svg class="footer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
         </svg></button></a>
-        </div>
        </div>
 
       </div>
-    
 </footer>
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
 </body>

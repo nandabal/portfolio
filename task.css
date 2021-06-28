@@ -1,0 +1,72 @@
+.aboutme{
+    font-size: 20px;
+}
+.education{
+    font-size: 20px;
+}
+.contactme{
+    font-size: 20px;
+}
+.line{
+    width:10%; 
+    background-color: black;
+     margin:0.1em auto;
+}
+.line2{
+    width:17%;
+     border:1px solid black;
+      margin:0.1em auto;
+}
+.skill{
+    font-size: medium;
+}
+.skillbar{
+    height: 8px;
+}
+.graphicdesign{
+    width: 60%;
+}
+.css{
+    width: 90%;
+}
+.javascript{
+    width: 75%;
+}
+.wordpress{
+    width: 50%;
+}
+.education-section{
+    background-color: white;
+}
+.edu-rowFirst{
+    padding-top: 12px;
+}
+.edu-rowSecond{
+    padding-top: 6px;
+}
+.exp-rowSecond{
+    padding-top: 5px;
+}
+.input-field{
+    border-color: #17a2b8;
+}
+.textArea{
+    height: 150px;
+}
+.footer{
+    color: white;
+}
+.button{
+    border-color: gray;
+}
+.div-button{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
